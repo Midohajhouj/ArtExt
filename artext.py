@@ -1,14 +1,37 @@
-import pyfiglet
-import os
-from termcolor import colored
-import argparse
-from PIL import Image, ImageDraw, ImageFont, ImageOps
-from typing import List, Optional, Literal, Dict, Tuple
-import logging
-from pathlib import Path
-import random
-import signal
-import sys
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+### BEGIN INIT INFO
+# Provides:          artext-banner
+# Required-Start:    $network $remote_fs
+# Required-Stop:     $remote_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: ArtExt
+# Description:       A tool designed for creating multiple banner customizations with ASCII and image processing.
+# Author:            MIDO <https://github.com/Midohajhouj>
+# License:           MIT License - https://opensource.org/licenses/MIT
+# Bug-Report:        https://github.com/Midohajhouj/artext-banner/issues
+# Depends:           python3, pyfiglet, termcolor, pillow
+# Conflicts:         None
+# Enhancements:      Support for font customization, image handling with PIL.
+# Packaging:         Available on GitHub for manual installation.
+### END INIT INFO ###
+
+# =======================================
+#      Libraries Used in the Script
+# =======================================
+import pyfiglet  # Creates ASCII art banners from text.
+import os  # Provides tools to interact with the operating system, e.g., file and directory manipulation.
+from termcolor import colored  # Adds color and style to terminal output.
+import argparse  # Parses command-line arguments for the script.
+from PIL import Image, ImageDraw, ImageFont, ImageOps  # Image processing library for creating and manipulating images.
+from typing import List, Optional, Literal, Dict, Tuple  # Provides support for type hints in function definitions and variable declarations.
+import logging  # Provides a flexible framework for emitting log messages.
+from pathlib import Path  # A modern way to handle and manipulate filesystem paths.
+import random  # Generates random numbers, selections, or permutations.
+import signal  # Handles asynchronous events, such as termination signals.
+import sys  # Provides access to system-specific parameters and functions, like manipulating I/O streams.
+
 
 # Constants
 COLORS = ["red", "green", "yellow", "blue", "magenta", "cyan", "white"]
