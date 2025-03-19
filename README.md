@@ -108,12 +108,5 @@ python3 artext.py --text "Hello" --color "blue" --batch
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contributing
+**<p align="center"> Developed by <a href="https://github.com/Midohajhouj">MIDO</a> </p>**
 
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
-
-## Support
-
-If you encounter any issues or have questions, feel free to open an issue on the GitHub repository.
-
-Enjoy creating beautiful ASCII art banners with ArtExt! 🎨
