@@ -8,7 +8,8 @@
 # Default-Stop:      0 1 6
 # Short-Description: ArtExt
 # Description:       A tool designed for creating multiple banner customizations with ASCII and image processing.
-# Author:            MIDO <https://github.com/Midohajhouj>
+# Author:  
+# + LIONMAD <https://github.com/Midohajhouj>
 # License:           MIT License - https://opensource.org/licenses/MIT
 # Bug-Report:        https://github.com/Midohajhouj/artext-banner/issues
 # Depends:           python3, pyfiglet, termcolor, pillow
